@@ -1,0 +1,921 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "find_travel",
+        "entities": [
+          {
+            "start": 8,
+            "end": 14,
+            "value": "flight",
+            "entity": "mode"
+          },
+          {
+            "start": 15,
+            "end": 27,
+            "value": "from Kolkata",
+            "entity": "travel_from"
+          },
+          {
+            "start": 28,
+            "end": 40,
+            "value": "to Bangalore",
+            "entity": "travel_to"
+          }
+        ],
+        "text": "Find me flight from Kolkata to Bangalore on 17th of December"
+      },
+      {
+        "intent": "find_travel",
+        "entities": [
+          {
+            "start": 8,
+            "end": 15,
+            "value": "flight",
+            "entity": "mode"
+          },
+          {
+            "start": 16,
+            "end": 28,
+            "value": "from Kolkata",
+            "entity": "travel_from"
+          },
+          {
+            "start": 29,
+            "end": 41,
+            "value": "to Bangalore",
+            "entity": "travel_to"
+          }
+        ],
+        "text": "Find me flights from Kolkata to Bangalore on 17th of December"
+      },
+      {
+        "intent": "find_travel",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "route",
+            "entity": "mode"
+          },
+          {
+            "start": 14,
+            "end": 26,
+            "value": "from Kolkata",
+            "entity": "travel_from"
+          },
+          {
+            "start": 27,
+            "end": 39,
+            "value": "to Bangalore",
+            "entity": "travel_to"
+          }
+        ],
+        "text": "Find me route from Kolkata to Bangalore on 17th of December"
+      },
+      {
+        "intent": "find_travel",
+        "entities": [
+          {
+            "start": 8,
+            "end": 14,
+            "value": "route",
+            "entity": "mode"
+          },
+          {
+            "start": 15,
+            "end": 27,
+            "value": "from Kolkata",
+            "entity": "travel_from"
+          },
+          {
+            "start": 28,
+            "end": 40,
+            "value": "to Bangalore",
+            "entity": "travel_to"
+          }
+        ],
+        "text": "Find me routes from Kolkata to Bangalore on 17th of December"
+      },
+      {
+        "intent": "find_travel",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "train",
+            "entity": "mode"
+          },
+          {
+            "start": 14,
+            "end": 26,
+            "value": "from Kolkata",
+            "entity": "travel_from"
+          },
+          {
+            "start": 27,
+            "end": 39,
+            "value": "to Bangalore",
+            "entity": "travel_to"
+          }
+        ],
+        "text": "Find me train from Kolkata to Bangalore on 17th of December"
+      },
+      {
+        "intent": "find_travel",
+        "entities": [
+          {
+            "start": 8,
+            "end": 14,
+            "value": "train",
+            "entity": "mode"
+          },
+          {
+            "start": 15,
+            "end": 27,
+            "value": "from Kolkata",
+            "entity": "travel_from"
+          },
+          {
+            "start": 28,
+            "end": 40,
+            "value": "to Bangalore",
+            "entity": "travel_to"
+          }
+        ],
+        "text": "Find me trains from Kolkata to Bangalore on 17th of December"
+      },
+      {
+        "intent": "find_travel",
+        "entities": [
+          {
+            "start": 8,
+            "end": 17,
+            "value": "itinerary",
+            "entity": "mode"
+          },
+          {
+            "start": 18,
+            "end": 30,
+            "value": "from Kolkata",
+            "entity": "travel_from"
+          },
+          {
+            "start": 31,
+            "end": 43,
+            "value": "to Bangalore",
+            "entity": "travel_to"
+          }
+        ],
+        "text": "Find me itinerary from Kolkata to Bangalore on 17th of December"
+      },
+      {
+        "intent": "find_travel",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "itinerary",
+            "entity": "mode"
+          },
+          {
+            "start": 13,
+            "end": 25,
+            "value": "from Kolkata",
+            "entity": "travel_from"
+          },
+          {
+            "start": 26,
+            "end": 38,
+            "value": "to Bangalore",
+            "entity": "travel_to"
+          }
+        ],
+        "text": "Find me trip from Kolkata to Bangalore on 17th of December"
+      },
+      {
+        "intent": "find_travel",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "itinerary",
+            "entity": "mode"
+          },
+          {
+            "start": 13,
+            "end": 25,
+            "value": "from Kolkata",
+            "entity": "travel_from"
+          },
+          {
+            "start": 26,
+            "end": 38,
+            "value": "to Bangalore",
+            "entity": "travel_to"
+          }
+        ],
+        "text": "Find me tour from Kolkata to Bangalore on 17th of December"
+      },
+      {
+        "intent": "find_travel",
+        "entities": [
+          {
+            "start": 8,
+            "end": 15,
+            "value": "itinerary",
+            "entity": "mode"
+          },
+          {
+            "start": 16,
+            "end": 28,
+            "value": "from Kolkata",
+            "entity": "travel_from"
+          },
+          {
+            "start": 29,
+            "end": 41,
+            "value": "to Bangalore",
+            "entity": "travel_to"
+          }
+        ],
+        "text": "Find me touring from Kolkata to Bangalore on 17th of December"
+      },
+      {
+        "intent": "find_travel",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "itinerary",
+            "entity": "mode"
+          },
+          {
+            "start": 14,
+            "end": 26,
+            "value": "from Kolkata",
+            "entity": "travel_from"
+          },
+          {
+            "start": 27,
+            "end": 39,
+            "value": "to Bangalore",
+            "entity": "travel_to"
+          }
+        ],
+        "text": "Find me visit from Kolkata to Bangalore on 17th of December"
+      },
+      {
+        "intent": "find_travel",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "hotel",
+            "entity": "mode"
+          },
+          {
+            "start": 14,
+            "end": 26,
+            "value": "from Kolkata",
+            "entity": "travel_from"
+          },
+          {
+            "start": 27,
+            "end": 39,
+            "value": "to Bangalore",
+            "entity": "travel_to"
+          }
+        ],
+        "text": "Find me hotel from Kolkata to Bangalore on 17th of December"
+      },
+      {
+        "intent": "find_travel",
+        "entities": [
+          {
+            "start": 8,
+            "end": 14,
+            "value": "hotel",
+            "entity": "mode"
+          },
+          {
+            "start": 15,
+            "end": 27,
+            "value": "from Kolkata",
+            "entity": "travel_from"
+          },
+          {
+            "start": 28,
+            "end": 40,
+            "value": "to Bangalore",
+            "entity": "travel_to"
+          }
+        ],
+        "text": "Find me hotels from Kolkata to Bangalore on 17th of December"
+      },
+      {
+        "intent": "find_travel",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "hotel",
+            "entity": "mode"
+          },
+          {
+            "start": 13,
+            "end": 25,
+            "value": "from Kolkata",
+            "entity": "travel_from"
+          },
+          {
+            "start": 26,
+            "end": 38,
+            "value": "to Bangalore",
+            "entity": "travel_to"
+          }
+        ],
+        "text": "Find me stay from Kolkata to Bangalore on 17th of December"
+      },
+      {
+        "intent": "find_travel",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "hotel",
+            "entity": "mode"
+          },
+          {
+            "start": 13,
+            "end": 25,
+            "value": "from Kolkata",
+            "entity": "travel_from"
+          },
+          {
+            "start": 26,
+            "end": 38,
+            "value": "to Bangalore",
+            "entity": "travel_to"
+          }
+        ],
+        "text": "Find me live from Kolkata to Bangalore on 17th of December"
+      },
+      {
+        "intent": "find_travel",
+        "entities": [
+          {
+            "start": 16,
+            "end": 22,
+            "value": "flight",
+            "entity": "mode"
+          },
+          {
+            "start": 23,
+            "end": 32,
+            "value": "to Europe",
+            "entity": "travel_to"
+          }
+        ],
+        "text": "Tell me about a flight to Europe"
+      },
+      {
+        "intent": "find_travel",
+        "entities": [
+          {
+            "start": 16,
+            "end": 23,
+            "value": "flight",
+            "entity": "mode"
+          },
+          {
+            "start": 24,
+            "end": 33,
+            "value": "to Europe",
+            "entity": "travel_to"
+          }
+        ],
+        "text": "Tell me about a flights to Europe"
+      },
+      {
+        "intent": "find_travel",
+        "entities": [
+          {
+            "start": 16,
+            "end": 21,
+            "value": "route",
+            "entity": "mode"
+          },
+          {
+            "start": 22,
+            "end": 31,
+            "value": "to Europe",
+            "entity": "travel_to"
+          }
+        ],
+        "text": "Tell me about a route to Europe"
+      },
+      {
+        "intent": "find_travel",
+        "entities": [
+          {
+            "start": 16,
+            "end": 22,
+            "value": "route",
+            "entity": "mode"
+          },
+          {
+            "start": 23,
+            "end": 32,
+            "value": "to Europe",
+            "entity": "travel_to"
+          }
+        ],
+        "text": "Tell me about a routes to Europe"
+      },
+      {
+        "intent": "find_travel",
+        "entities": [
+          {
+            "start": 16,
+            "end": 21,
+            "value": "train",
+            "entity": "mode"
+          },
+          {
+            "start": 22,
+            "end": 31,
+            "value": "to Europe",
+            "entity": "travel_to"
+          }
+        ],
+        "text": "Tell me about a train to Europe"
+      },
+      {
+        "intent": "find_travel",
+        "entities": [
+          {
+            "start": 16,
+            "end": 22,
+            "value": "train",
+            "entity": "mode"
+          },
+          {
+            "start": 23,
+            "end": 32,
+            "value": "to Europe",
+            "entity": "travel_to"
+          }
+        ],
+        "text": "Tell me about a trains to Europe"
+      },
+      {
+        "intent": "find_travel",
+        "entities": [
+          {
+            "start": 16,
+            "end": 25,
+            "value": "itinerary",
+            "entity": "mode"
+          },
+          {
+            "start": 26,
+            "end": 35,
+            "value": "to Europe",
+            "entity": "travel_to"
+          }
+        ],
+        "text": "Tell me about a itinerary to Europe"
+      },
+      {
+        "intent": "find_travel",
+        "entities": [
+          {
+            "start": 16,
+            "end": 20,
+            "value": "itinerary",
+            "entity": "mode"
+          },
+          {
+            "start": 21,
+            "end": 30,
+            "value": "to Europe",
+            "entity": "travel_to"
+          }
+        ],
+        "text": "Tell me about a trip to Europe"
+      },
+      {
+        "intent": "find_travel",
+        "entities": [
+          {
+            "start": 16,
+            "end": 20,
+            "value": "itinerary",
+            "entity": "mode"
+          },
+          {
+            "start": 21,
+            "end": 30,
+            "value": "to Europe",
+            "entity": "travel_to"
+          }
+        ],
+        "text": "Tell me about a tour to Europe"
+      },
+      {
+        "intent": "find_travel",
+        "entities": [
+          {
+            "start": 16,
+            "end": 23,
+            "value": "itinerary",
+            "entity": "mode"
+          },
+          {
+            "start": 24,
+            "end": 33,
+            "value": "to Europe",
+            "entity": "travel_to"
+          }
+        ],
+        "text": "Tell me about a touring to Europe"
+      },
+      {
+        "intent": "find_travel",
+        "entities": [
+          {
+            "start": 16,
+            "end": 21,
+            "value": "itinerary",
+            "entity": "mode"
+          },
+          {
+            "start": 22,
+            "end": 31,
+            "value": "to Europe",
+            "entity": "travel_to"
+          }
+        ],
+        "text": "Tell me about a visit to Europe"
+      },
+      {
+        "intent": "find_travel",
+        "entities": [
+          {
+            "start": 16,
+            "end": 21,
+            "value": "hotel",
+            "entity": "mode"
+          },
+          {
+            "start": 22,
+            "end": 31,
+            "value": "to Europe",
+            "entity": "travel_to"
+          }
+        ],
+        "text": "Tell me about a hotel to Europe"
+      },
+      {
+        "intent": "find_travel",
+        "entities": [
+          {
+            "start": 16,
+            "end": 22,
+            "value": "hotel",
+            "entity": "mode"
+          },
+          {
+            "start": 23,
+            "end": 32,
+            "value": "to Europe",
+            "entity": "travel_to"
+          }
+        ],
+        "text": "Tell me about a hotels to Europe"
+      },
+      {
+        "intent": "find_travel",
+        "entities": [
+          {
+            "start": 16,
+            "end": 20,
+            "value": "hotel",
+            "entity": "mode"
+          },
+          {
+            "start": 21,
+            "end": 30,
+            "value": "to Europe",
+            "entity": "travel_to"
+          }
+        ],
+        "text": "Tell me about a stay to Europe"
+      },
+      {
+        "intent": "find_travel",
+        "entities": [
+          {
+            "start": 16,
+            "end": 20,
+            "value": "hotel",
+            "entity": "mode"
+          },
+          {
+            "start": 21,
+            "end": 30,
+            "value": "to Europe",
+            "entity": "travel_to"
+          }
+        ],
+        "text": "Tell me about a live to Europe"
+      },
+      {
+        "intent": "find_travel",
+        "entities": [
+          {
+            "start": 7,
+            "end": 13,
+            "value": "flight",
+            "entity": "mode"
+          },
+          {
+            "start": 14,
+            "end": 23,
+            "value": "in\u00a0Kerala",
+            "entity": "travel_to"
+          }
+        ],
+        "text": "Get me\u00a0flight in\u00a0Kerala on 1st of January"
+      },
+      {
+        "intent": "find_travel",
+        "entities": [
+          {
+            "start": 7,
+            "end": 14,
+            "value": "flight",
+            "entity": "mode"
+          },
+          {
+            "start": 15,
+            "end": 24,
+            "value": "in\u00a0Kerala",
+            "entity": "travel_to"
+          }
+        ],
+        "text": "Get me\u00a0flights in\u00a0Kerala on 1st of January"
+      },
+      {
+        "intent": "find_travel",
+        "entities": [
+          {
+            "start": 7,
+            "end": 12,
+            "value": "route",
+            "entity": "mode"
+          },
+          {
+            "start": 13,
+            "end": 22,
+            "value": "in\u00a0Kerala",
+            "entity": "travel_to"
+          }
+        ],
+        "text": "Get me\u00a0route in\u00a0Kerala on 1st of January"
+      },
+      {
+        "intent": "find_travel",
+        "entities": [
+          {
+            "start": 7,
+            "end": 13,
+            "value": "route",
+            "entity": "mode"
+          },
+          {
+            "start": 14,
+            "end": 23,
+            "value": "in\u00a0Kerala",
+            "entity": "travel_to"
+          }
+        ],
+        "text": "Get me\u00a0routes in\u00a0Kerala on 1st of January"
+      },
+      {
+        "intent": "find_travel",
+        "entities": [
+          {
+            "start": 7,
+            "end": 12,
+            "value": "train",
+            "entity": "mode"
+          },
+          {
+            "start": 13,
+            "end": 22,
+            "value": "in\u00a0Kerala",
+            "entity": "travel_to"
+          }
+        ],
+        "text": "Get me\u00a0train in\u00a0Kerala on 1st of January"
+      },
+      {
+        "intent": "find_travel",
+        "entities": [
+          {
+            "start": 7,
+            "end": 13,
+            "value": "train",
+            "entity": "mode"
+          },
+          {
+            "start": 14,
+            "end": 23,
+            "value": "in\u00a0Kerala",
+            "entity": "travel_to"
+          }
+        ],
+        "text": "Get me\u00a0trains in\u00a0Kerala on 1st of January"
+      },
+      {
+        "intent": "find_travel",
+        "entities": [
+          {
+            "start": 7,
+            "end": 16,
+            "value": "itinerary",
+            "entity": "mode"
+          },
+          {
+            "start": 17,
+            "end": 26,
+            "value": "in\u00a0Kerala",
+            "entity": "travel_to"
+          }
+        ],
+        "text": "Get me\u00a0itinerary in\u00a0Kerala on 1st of January"
+      },
+      {
+        "intent": "find_travel",
+        "entities": [
+          {
+            "start": 7,
+            "end": 11,
+            "value": "itinerary",
+            "entity": "mode"
+          },
+          {
+            "start": 12,
+            "end": 21,
+            "value": "in\u00a0Kerala",
+            "entity": "travel_to"
+          }
+        ],
+        "text": "Get me\u00a0trip in\u00a0Kerala on 1st of January"
+      },
+      {
+        "intent": "find_travel",
+        "entities": [
+          {
+            "start": 7,
+            "end": 11,
+            "value": "itinerary",
+            "entity": "mode"
+          },
+          {
+            "start": 12,
+            "end": 21,
+            "value": "in\u00a0Kerala",
+            "entity": "travel_to"
+          }
+        ],
+        "text": "Get me\u00a0tour in\u00a0Kerala on 1st of January"
+      },
+      {
+        "intent": "find_travel",
+        "entities": [
+          {
+            "start": 7,
+            "end": 14,
+            "value": "itinerary",
+            "entity": "mode"
+          },
+          {
+            "start": 15,
+            "end": 24,
+            "value": "in\u00a0Kerala",
+            "entity": "travel_to"
+          }
+        ],
+        "text": "Get me\u00a0touring in\u00a0Kerala on 1st of January"
+      },
+      {
+        "intent": "find_travel",
+        "entities": [
+          {
+            "start": 7,
+            "end": 12,
+            "value": "itinerary",
+            "entity": "mode"
+          },
+          {
+            "start": 13,
+            "end": 22,
+            "value": "in\u00a0Kerala",
+            "entity": "travel_to"
+          }
+        ],
+        "text": "Get me\u00a0visit in\u00a0Kerala on 1st of January"
+      },
+      {
+        "intent": "find_travel",
+        "entities": [
+          {
+            "start": 7,
+            "end": 12,
+            "value": "hotel",
+            "entity": "mode"
+          },
+          {
+            "start": 13,
+            "end": 22,
+            "value": "in\u00a0Kerala",
+            "entity": "travel_to"
+          }
+        ],
+        "text": "Get me\u00a0hotel in\u00a0Kerala on 1st of January"
+      },
+      {
+        "intent": "find_travel",
+        "entities": [
+          {
+            "start": 7,
+            "end": 13,
+            "value": "hotel",
+            "entity": "mode"
+          },
+          {
+            "start": 14,
+            "end": 23,
+            "value": "in\u00a0Kerala",
+            "entity": "travel_to"
+          }
+        ],
+        "text": "Get me\u00a0hotels in\u00a0Kerala on 1st of January"
+      },
+      {
+        "intent": "find_travel",
+        "entities": [
+          {
+            "start": 7,
+            "end": 11,
+            "value": "hotel",
+            "entity": "mode"
+          },
+          {
+            "start": 12,
+            "end": 21,
+            "value": "in\u00a0Kerala",
+            "entity": "travel_to"
+          }
+        ],
+        "text": "Get me\u00a0stay in\u00a0Kerala on 1st of January"
+      },
+      {
+        "intent": "find_travel",
+        "entities": [
+          {
+            "start": 7,
+            "end": 11,
+            "value": "hotel",
+            "entity": "mode"
+          },
+          {
+            "start": 12,
+            "end": 21,
+            "value": "in\u00a0Kerala",
+            "entity": "travel_to"
+          }
+        ],
+        "text": "Get me\u00a0live in\u00a0Kerala on 1st of January"
+      }
+    ],
+    "regex_features": [
+      {
+        "name": "travel_from",
+        "pattern": "from ([A-z]+){1}"
+      },
+      {
+        "name": "travel_to",
+        "pattern": "(to|in) ([A-z]+){1}"
+      },
+      {
+        "name": "travel_to",
+        "pattern": "(to|in) ([A-z]+){1}"
+      }
+    ],
+    "entity_synonyms": []
+  }
+}

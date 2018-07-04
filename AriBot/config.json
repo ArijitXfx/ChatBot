@@ -1,0 +1,10 @@
+{
+  "pipeline": [ "nlp_spacy",
+                   "tokenizer_spacy",
+                    "ner_crf",
+                    "ner_spacy",
+                    "intent_featurizer_spacy",
+                    "intent_classifier_sklearn"],
+  "path" : "./",
+  "data" : "./data/training_data.json"
+}
